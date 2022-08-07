@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "excludePackagePrefixes": [
+        "@my-company/"
+      ],
+      "stabilityDays": 3,
+      "internalChecksFilter": "strict"
+    }
+  ],
+  "devDependencies": {
+    "renovate": "32.147.0"
+  }
+}
