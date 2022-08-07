@@ -8,8 +8,5 @@
       "stabilityDays": 3,
       "internalChecksFilter": "strict"
     }
-  ],
-  "devDependencies": {
-    "renovate": "32.147.0"
-  }
+  ]
 }
