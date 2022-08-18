@@ -1,5 +1,8 @@
 {
   "devDependencies": {
-    "renovate": "32.147.0"
+    "renovate": "32.164.0"
+  },
+  "scripts": {
+    "debug": "LOG_LEVEL=debug renovate"
   }
 }
