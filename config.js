@@ -1,3 +1,6 @@
+/**
+ * @type {import('renovate/dist/config/types').RenovateConfig}
+ */
 module.exports = {
   platform: 'github',
   enabledManagers: [
@@ -30,6 +33,12 @@ module.exports = {
         '@my-company/'
       ],
       stabilityDays: 3
+    },
+    {
+      matchPackageNames: [
+        'node'
+      ],
+      versioning: 'node'
     },
   ],
   repositories: [
