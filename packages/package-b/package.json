@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
+    "eslint": "8.22.0",
     "svelte": "3.49.0"
   },
   "scripts": {
