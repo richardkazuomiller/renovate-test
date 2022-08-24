@@ -4,7 +4,7 @@
 module.exports = {
   platform: 'github',
   enabledManagers: [
-    // 'npm',
+    'npm',
     'dockerfile',
     // 'docker-compose',
     // 'nodenv',
