@@ -3,7 +3,8 @@
     "packages/*"
   ],
   "devDependencies": {
-    "renovate": "32.174.1"
+    "lerna": "5.4.3",
+    "renovate": "32.165.2"
   },
   "scripts": {
     "debug": "LOG_LEVEL=debug renovate"
