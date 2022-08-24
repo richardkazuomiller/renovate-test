@@ -3,7 +3,7 @@
     "packages/*"
   ],
   "devDependencies": {
-    "renovate": "32.164.0"
+    "renovate": "32.174.1"
   },
   "scripts": {
     "debug": "LOG_LEVEL=debug renovate"
